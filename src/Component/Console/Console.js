@@ -13,7 +13,7 @@ class Console extends Component{
         let command = (i)=>{
             if(i === 'help'){
                 // alert('oi')
-                let k = ['Here are a list of commands']
+                let k = ["~Equinox $ "+i,'Here are a list of commands']
                 Object.keys(commands).forEach(element => {
                     k.push(element + " : " + commands[element])
                 });
